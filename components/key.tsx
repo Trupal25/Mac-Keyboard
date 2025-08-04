@@ -1,4 +1,6 @@
+"use client"
 import { cn } from "@/lib/utils";
+import { useRef } from "react";
 
 
 export const Key = ({ className, children, variant = "tl", isBottomRow }: {
@@ -39,17 +41,34 @@ export const Key = ({ className, children, variant = "tl", isBottomRow }: {
     },
   }
 
-  return <div>
-    <div className={cn(`bg-black text-white text-[10px] h-12 w-12 rounded-[6px] flex items-center justify-center hover:scale-95`, shadowVariants[variant].base, shadowVariants[variant].hover, className)}
-
-    >
-      {children}
+  const audioRef = useRef<HTMLAudioElement>(null)
+  const handleClick = () => {
+    if (audioRef.current) {
+      audioRef.current.currentTime = 0;
+      try {
+        audioRef.current.play();
+      } catch (error) {
+        console.log("audio play failed", error)
+      }
+    }
+  }
+  return <>
+    <div  onKeyDown={handleClick}>
+      <audio src="/click.mp3" ref={audioRef} />
+      <div className={cn(`bg-black text-neutral-100 text-[10px] h-12 w-12 rounded-[6px] flex items-center justify-center hover:scale-95`, shadowVariants[variant].base, shadowVariants[variant].hover, className)}
+      >
+        {children}
+      </div>
     </div>
-  </div>
+  </>
 }
 
 
 
+
+function userRef(p0: null) {
+  throw new Error("Function not implemented.");
+}
 // const extracoolVariants = {
 //   default: "shadow-[1px_1px_0px_1px_#3f3f46_inset,_0px_4px_8px_rgba(0,0,0,0.3)]",
 //   pressed: "shadow-[inset_0px_2px_4px_rgba(0,0,0,0.6),_inset_1px_1px_0px_1px_#1f1f1f]",

@@ -9,10 +9,12 @@ export default function Home() {
 
       <Keyboard />
       </div>
-    <div className="absolute bottom-1 text-neutral-100 flex items-center gap-1">
+    <div className="absolute bottom-3 text-neutral-100 flex items-center gap-1 selection:bg-pink-500 selection:text-black">
         Made with 💖 by
         <Link href={"https://x.com/Trupal_19"} className="hover:underline flex items-center">
-          Trupal
+            
+          <span className="relative ">Trupal</span>
+
           <Image src="/logo.svg" alt="" width={12} height={12} className="mx-1" />
         </Link>
     </div>

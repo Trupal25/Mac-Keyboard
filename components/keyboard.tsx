@@ -71,7 +71,7 @@ const Firstrow = () => {
         F12
       </Key>
       <Key variant="tbr">
-        <div className="rounded-full p-0.5 bg-gradient-to-t from-zinc-900 via-zinc-950 to-zinc-900">
+        <div className="rounded-full p-0.5 bg-gradient-to-tl from-zinc-800 via-zinc-950 to-zinc-800">
           <div className="rounded-full p-3 bg-black"></div>
         </div>
       </Key>
