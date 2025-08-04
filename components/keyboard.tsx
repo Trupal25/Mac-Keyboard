@@ -18,7 +18,7 @@ export const Keyboard = () => {
 
 const Firstrow = () => {
   return (
-    <div className="flex items-center gap-1.5 mt-2 mx-2 ">
+    <div className="flex items-center gap-1.5 pt-2 px-2 ">
       <Key className="w-20 items-end justify-start pb-1 pl-2">
         esc
       </Key>

@@ -11,31 +11,31 @@ export const Key = ({ className, children, variant = "tl", isBottomRow }: {
   const shadowVariants = {
     tl: {
       hover: "hover:shadow-[1px_1px_0px_0.7px_#52525b_inset,_-2px_4px_8px_0px_rgba(255,255,255,0.15)]",
-      base: "shadow-[1px_1px_0px_0.7px_#52525b_inset,0px_5px_10px_-3px_#f2f2f2]"
+      base: "shadow-[1px_1px_0px_0.7px_#52525b_inset,0px_4px_10px_-3px_#f2f2f2]"
     },
     rb: {
       hover: "hover:shadow-[-1px_-1px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08)]",
-      base: "shadow-[-1px_-1px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08),0px_5px_10px_-3px_#f2f2f2]"
+      base: "shadow-[-1px_-1px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08),0px_4px_10px_-3px_#f2f2f2]"
     },
     tr: {
       hover: "hover:shadow-[-1px_1px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08)]",
-      base: "shadow-[-1px_1px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08),0px_5px_10px_-3px_#f2f2f2]"
+      base: "shadow-[-1px_1px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08),0px_4px_10px_-3px_#f2f2f2]"
     },
     bl: {
       hover: "hover:shadow-[1px_-1px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08)]",
-      base: "shadow-[1px_-1px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08),0px_5px_10px_-3px_#f2f2f2]"
+      base: "shadow-[1px_-1px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08),0px_4px_10px_-3px_#f2f2f2]"
     },
     tbl: {
       hover: "hover:shadow-[1px_-1px_0px_0.5px_#52525b_inset,0.5px_0.5px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08)]",
-      base: "shadow-[1px_-1px_0px_0.5px_#52525b_inset,0.5px_0.5px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08),0px_5px_10px_-3px_#f2f2f2]"
+      base: "shadow-[1px_-1px_0px_0.5px_#52525b_inset,0.5px_0.5px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08),0px_4px_10px_-3px_#f2f2f2]"
     },
     tbr: {
       hover: "hover:shadow-[-1px_-1px_0px_0.5px_#52525b_inset,-0.5px_0.5px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08)]",
-      base: "shadow-[-1px_-1px_0px_0.5px_#52525b_inset,-0.5px_0.5px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08),0px_5px_10px_-3px_#f2f2f2]"
+      base: "shadow-[-1px_-1px_0px_0.5px_#52525b_inset,-0.5px_0.5px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08),0px_4px_10px_-3px_#f2f2f2]"
     },
     full: {
       hover: "hover:shadow-[1px_1px_0px_0.5px_#52525b_inset,-1px_-1px_0px_0.5px_#52525b_inset,0.5px_-0.5px_0px_0.5px_#52525b_inset,-0.5px_0.5px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08)]",
-      base: "shadow-[1px_1px_0px_0.5px_#52525b_inset,-1px_-1px_0px_0.5px_#52525b_inset,0.5px_-0.5px_0px_0.5px_#52525b_inset,-0.5px_0.5px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08),0px_5px_10px_-3px_#f2f2f2]"
+      base: "shadow-[1px_1px_0px_0.5px_#52525b_inset,-1px_-1px_0px_0.5px_#52525b_inset,0.5px_-0.5px_0px_0.5px_#52525b_inset,-0.5px_0.5px_0px_0.5px_#52525b_inset,_0px_6px_12px_rgba(255,255,255,0.08),0px_4px_10px_-3px_#f2f2f2]"
     },
   }
 
