@@ -4,7 +4,7 @@ import { Key } from "./key";
 
 export const Keyboard = () => {
   return (
-    <div className="h-[350px] w-auto max-w-[80rem] bg-zinc-800 rounded-2xl">
+    <div className="h-[350px] w-full max-w-sm sm:max-w-md md:max-w-4xl lg:max-w-[80rem] bg-zinc-800 rounded-2xl overflow-x-auto">
       <Firstrow />
       <Secondrow />
       <Thirdrow />
@@ -14,7 +14,6 @@ export const Keyboard = () => {
     </div>
   );
 };
-
 
 const Firstrow = () => {
   return (

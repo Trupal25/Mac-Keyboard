@@ -2,11 +2,19 @@
 /* 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
 
-@theme{
+/* Reset default margins and padding for full-screen background */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+@theme {
   --color-secondary: oklch(63.7% 0.237 25.331);
   --color-primary: oklch(58.8% 0.158 241.966);
   --height-key: 2px;
-  --h-kkL:100px;
+  --h-kkL: 100px;
 }
 
 /* *{
