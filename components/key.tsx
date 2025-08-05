@@ -3,11 +3,10 @@ import { cn } from "@/lib/utils";
 import { useRef } from "react";
 
 
-export const Key = ({ className, children, variant = "tl", isBottomRow }: {
+export const Key = ({ className, children, variant = "tl" }: {
   className?: string,
   children: React.ReactNode,
   variant?: "tl" | "rb" | "tr" | "bl" | "tbl" | "tbr" | "full",
-  isBottomRow?: boolean
 }) => {
 
   const shadowVariants = {
@@ -63,12 +62,6 @@ export const Key = ({ className, children, variant = "tl", isBottomRow }: {
   </>
 }
 
-
-
-
-function userRef(p0: null) {
-  throw new Error("Function not implemented.");
-}
 // const extracoolVariants = {
 //   default: "shadow-[1px_1px_0px_1px_#3f3f46_inset,_0px_4px_8px_rgba(0,0,0,0.3)]",
 //   pressed: "shadow-[inset_0px_2px_4px_rgba(0,0,0,0.6),_inset_1px_1px_0px_1px_#1f1f1f]",

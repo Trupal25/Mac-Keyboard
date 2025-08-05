@@ -276,12 +276,12 @@ const Fourthrow = () => {
         L
       </Key>
       <Key variant="tbl" className="flex flex-col">
-        <span className="block">:</span>
-        <span className="block">;</span>
+        <span className="block">{`:`}</span>
+        <span className="block">{`;`}</span>
       </Key>
       <Key variant="tbl" className="flex flex-col">
-        <span className="block">"</span>
-        <span className="block">'</span>
+        <span className="block">&quot;</span>
+        <span className="block">&apos;</span>
       </Key>
       <Key variant="tbr" className="w-[92px]  items-end justify-end pb-1 pr-2">
         return
@@ -373,7 +373,7 @@ const Sixthrow = () => {
       <Key variant="bl" className="w-[264px]">
         {''}
       </Key>
-      <Key variant="full" className="w-[66px] flex flex-col gap-1" isBottomRow={true}>
+      <Key variant="full" className="w-[66px] flex flex-col gap-1">
         <div className="flex justify-start w-full pl-2">
           <IconCommand className="size-3" />
         </div>
